@@ -1,0 +1,14 @@
+Nuevamente, R dispone de cuatro funciones que permiten trabajar con esta distribución:
+  dnbinom(x, size, prob).
+pnbinom(q, size, prob, lower.tail).
+qnbinom(p, size, prob, lower.tail).
+rnbinom(n, size, prob).
+Donde:
+  3Traducción libre de los autores.
+15
+x, q son vectores de cuantiles (enteros no negativos).
+p es un vector de probabilidades.
+n es la cantidad de observaciones.
+size corresponde al número (no negativo) de intentos.
+prob es la probabilidad de éxito de cada intento.
+lower.tail es análogo al de la función pnorm.
